@@ -1,6 +1,6 @@
 import sys
 from rps import rps
-from guess_number import guess_number
+from guess_number import gn
 
 
 def play_game(name='PlayerOne'):
@@ -24,7 +24,7 @@ def play_game(name='PlayerOne'):
             rock_paper_scissors = rps(name)
             rock_paper_scissors()
         elif playerchoice == "2":
-            guess_my_number = guess_number(name)
+            guess_my_number = gn(name)
             guess_my_number()
         else:
             print("\nSee you next time!\n")
